@@ -4,7 +4,8 @@ mysql -u root -p
 
 # Backup
 
-mysqldump -u [username] -p[password] [dbname] > [dbname].sql
+mysqldump -u USUARIO -p DBNAME > NAMEBACKUP.sql
+-- // Te pedira la clave
 
 # Buscar Repetidos
 
