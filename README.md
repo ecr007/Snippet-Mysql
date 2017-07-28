@@ -6,7 +6,7 @@ mysql -u root -p
 
 mysqldump -u USUARIO -p DBNAME > NAMEBACKUP.sql
 
--- // Te pedira la clave
+```-- // Te pedira la clave```
 
 # Buscar Repetidos
 
