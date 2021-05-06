@@ -28,3 +28,11 @@ https://ottomatik.groovehq.com/knowledge_base/topics/solving-error-2013-lost-con
 # Buscar Repetidos
 
 SELECT codigo, COUNT(*) estoyRepetido FROM codigos GROUP BY codigo HAVING estoyRepetido > 1;
+
+# Importar Datos a una tabla
+
+```
+mysql> use your_db_name;
+
+mysql> source /opt/file.sql;
+```
