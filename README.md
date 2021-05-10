@@ -36,3 +36,8 @@ mysql> use your_db_name;
 
 mysql> source /opt/file.sql;
 ```
+
+# PATH For MySQL
+```
+ln -s /usr/local/mysql/bin/mysql /usr/local/bin/mysql
+```
