@@ -41,3 +41,14 @@ mysql> source /opt/file.sql;
 ```
 ln -s /usr/local/mysql/bin/mysql /usr/local/bin/mysql
 ```
+
+# Ver Variables Globales en MySQL
+
+```
+SHOW VARIABLES;
+
+O
+
+SHOW VARIABLES LIKE '%max%';
+
+```
