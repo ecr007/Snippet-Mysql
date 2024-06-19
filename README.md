@@ -4,7 +4,7 @@ mysql -u root -p
 
 # Backup
 
-mysqldump -u USUARIO -p DBNAME > NAMEBACKUP.sql
+mysqldump -u [username] -p [dbname] [dbtable] > NAMEBACKUP.sql
 
 ```-- // Te pedira la clave```
 
